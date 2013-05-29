@@ -1,0 +1,43 @@
+!!!
+html(lang="eu")
+        head
+                meta(charset="utf-8")
+                title= title
+                meta(name="description", content= description)
+                meta(name="viewport", content="width=device-width, initial-scale=1, maximum-scale=1")
+
+                link(rel="stylesheet", href="/css/normalize.css", type="text/css")
+                link(rel="stylesheet", href="http://cdn.leafletjs.com/leaflet-0.5.1/leaflet.css", type="text/css")
+                link(rel="stylesheet", href="http://fonts.googleapis.com/css?family=Open+Sans|Merienda+One", type="text/css")
+                link(rel="stylesheet", href="/css/main.css", type="text/css")
+
+
+
+        body
+                header
+                        figure(id="logo")
+                                img(src="/img/logo.png")
+                        h1 Txio Mapa
+                        nav
+                                ul
+                                        li Joerak
+                                        li(id="honi_buruz") Honi buruz
+                                        li
+                                                form(id="bilaketa_eremua")
+                                                        input(id="bilaketa-kuadroa", type="search", tabindex="1", placeholder="Bilatu leku bat ...")
+                                                        span(id="lupa", class="icon-search", type="submit", tabindex="2")
+                div(id="joerak")
+                        h2 Inguruko Joerak
+                        p Look, just because I don't be givin' no man a foot massage don't make it right for Marsellus to throw Antwone into a glass motherfuckin' house, fuckin' up the way the nigger talks. Motherfucker do that shit to me, he better paralyze my ass, 'cause I'll kill the motherfucker, know what I'm sayin'?
+                section(id="mapa")
+                footer
+                        ul
+                                li Txio Mapa 2013
+                                li
+                                        span(id="twitter-footer", class="icon-twitter")
+                                li 
+                                        span(id="github-footer", class="icon-github")
+
+                script(src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js")
+                script(src="http://cdn.leafletjs.com/leaflet-0.5.1/leaflet.js")
+                script(src="/js/main.js")

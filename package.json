@@ -1,0 +1,12 @@
+{
+	"name": "TxioMapa",
+	"description": "Twitter-ko txioak mapan kokatzeko aplikazioa. NodeJS, Express, jade, socket.io eta LeafletJS erabilita", 
+	"version": "0.0.1",
+	"author": "Sergio Peña" ,
+	"dependencies": {
+		"express": "3.2.5",
+		"jade": "0.30.0",
+		"socket.io": "0.9.14"
+	}
+}
+

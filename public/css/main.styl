@@ -1,0 +1,99 @@
+// Kolore urdina
+
+urdina = #51BDFB
+grisa = #eee
+// Border radius prefijoak
+
+border-radius(n)
+	-webkit-border-radius n
+	-moz-border-radius n
+	border-radius n
+
+// Ikonoak
+
+@import fonts
+
+body
+	background grisa
+	font-size 16px
+	font-family Open Sans, sans-serif
+	text-align center
+	height 100%
+	width 100%
+
+	header
+		background urdina
+		color #FFFFFF
+		padding 0	
+		width 100%
+		figure	
+			width 10%
+
+			img
+				width 100%
+		h1
+			font-family Merienda One, cursive
+			margin-top 5px
+			margin-bottom 5px
+		figure, h1
+			text-align left
+		figure, nav, h1
+			display inline-block
+			vertical-align middle
+		nav
+			ul
+				li
+					display inline-block
+					margin-left 0.5 em
+					list-style none
+					
+					
+	aside
+		background grisa
+		margin-top 0
+		text-align left
+		width 100%
+
+		h2
+			margin 0
+		p
+			margin 0
+			width 95%
+					
+	footer
+		background black
+		bottom 0px
+		color white
+		margin-bottom 0px
+		position fixed
+		width 100%
+		ul
+			margin 0
+			li
+				display inline-block
+				list-style none
+				margin 0 1em
+				vertical-align middle
+	#bilaketa-kuadroa
+		background none repeat scroll 0 0 #FFFFFF
+		border 1px solid #8D8D8D
+		border-radius (5px)
+		box-shadow 1px 1px 2px #999999 inset
+		padding 0.2em	
+	
+	#honi_buruz
+		cursor pointer
+	#joerak
+		display none
+	#lupa
+		margin-left 0.5em
+
+	#mapa
+		border-radius (10px)
+		display inline-block
+		height 500px
+		margin-top 1em
+		width  90%
+
+@import responsive
+	
