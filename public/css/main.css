@@ -4,7 +4,7 @@
 .icon-search:before{content:"\e000"}
 .icon-github:before{content:"\e002"}
 .icon-twitter:before{content:"\e001"}
-body{background:#eee;font-size:16px;font-family:Open Sans,sans-serif;text-align:center;height:100%;width:100%;}
+body{background:#eee;font-size:16px;font-family:Open Sans,sans-serif;text-align:center;height:100%;overflow:hidden;width:100%;}
 body header{background:#51bdfb;color:#fff;padding:0;width:100%;}
 body header figure{width:10%;}
 body header figure img{width:100%}
@@ -12,21 +12,19 @@ body header h1{font-family:Merienda One,cursive;margin-top:5px;margin-bottom:5px
 body header figure,body header h1{text-align:left}
 body header figure,body header nav,body header h1{display:inline-block;vertical-align:middle}
 body header nav ul li{display:inline-block;margin-left:.5em;list-style:none}
-body aside{background:#eee;margin-top:0;text-align:left;width:100%;}
-body aside h2{margin:0}
-body aside p{margin:0;width:95%}
-body footer{background:#000;bottom:0;color:#fff;margin-bottom:0;position:fixed;width:100%;}
+body footer{background:#000;bottom:0;color:#fff;position:fixed;width:100%;}
 body footer ul{margin:0;}
 body footer ul li{display:inline-block;list-style:none;margin:0 1em;vertical-align:middle}
 body #bilaketa-kuadroa{background:none repeat scroll 0 0 #fff;border:1px solid #8d8d8d;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;box-shadow:1px 1px 2px #999 inset;padding:.2em}
 body #honi_buruz{cursor:pointer}
 body #joerak{display:none}
 body #lupa{margin-left:.5em}
-body #mapa{-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;display:inline-block;height:500px;margin-top:1em;width:90%}
-@media (max-width:320px){body #mapa{-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;height:400px;margin-top:0;width:100%}
+body #mapa{position:absolute;height:100%;width:100%}
+@media (max-width:320px){#honi_buruz{display:none}
 }@media (max-width:480px){body header h1{font-size:1em;margin:0}
 body header nav ul{margin:0}
-body #mapa{-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;height:210px;margin-top:0;width:100%}
+#bilaketa-kuadroa{width:110px}
+#honi_buruz{display:none}
 }@media (min-width:768px){body{background:#f00;}
 body header nav{margin-left:10%}
 #logo{width:7%}
