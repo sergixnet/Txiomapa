@@ -21,4 +21,4 @@ app.get('/', function(req,res) {
 
 app.listen(3000);
 
-console.log('zerbitzaria martxan');
+console.log('Aplikazioa martxan http://locahost:3000 helbidean.');

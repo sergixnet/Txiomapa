@@ -1,7 +1,7 @@
 function onDocumentReady() {
 	var map = L.map('mapa', {
 		center: [43, -2],
-		zoom: 15 
+		zoom: 10 
 	});
 
 

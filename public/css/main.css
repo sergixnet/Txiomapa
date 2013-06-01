@@ -25,13 +25,10 @@ body #mapa{position:absolute;height:100%;width:100%}
 body header nav ul{margin:0}
 #bilaketa-kuadroa{width:110px}
 #honi_buruz{display:none}
-}@media (min-width:768px){body{background:#f00;}
-body header nav{margin-left:10%}
+}@media (min-width:768px){body header nav{margin-left:10%}
 #logo{width:7%}
-}@media (min-width:1024px){body{background:#008000;}
-body header nav{margin-left:20%}
+}@media (min-width:1024px){body header nav{margin-left:20%}
 #logo{width:7%}
-}@media (min-width:1200px){body{background:#00f;}
-body header nav{margin-left:30%}
+}@media (min-width:1200px){body header nav{margin-left:30%}
 #logo{width:7%}
 }
