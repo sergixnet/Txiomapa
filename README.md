@@ -16,5 +16,5 @@ Txiomapa
 ## Kontaktua
 Kode irekiko proiektu honetan parte hartu nahi bazenu mesedez jarri kontaktuan nirekin:
 * Sergio Peña
-* Twitter: @sergixnet
+* Twitter: [@sergixnet](https://twitter.com/sergixnet) edo [@txiomapa](https://twitter.com/txiomapa)
 * [Google +](https://plus.google.com/u/0/102990234003788428078/posts) 
