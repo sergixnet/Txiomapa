@@ -5,6 +5,7 @@ Txiomapa
 
 <p>Hainbat dispositibo eta gailuetan ondo ikusteko diseinua erabiliko du diseinu arduratsua edo Responsive Design delakoa</p>
 <p>Momentuz Alpha bertsio baten dagoenez bakarrik erabiltzailea geolokalizatzen du. Egiteko dauden lanak "Issues" atalean agertuko dira,</p>
+<p>Helbide honetan Demo bat aurkituko duzu [http://txiomapa-txiomapa.jit.su/](http://txiomapa-txiomapa.jit.su/)
 
 ## Liburutegiak
 
