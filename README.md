@@ -14,7 +14,7 @@ Txiomapa
 * [HTML5](http://www.whatwg.org/specs/web-apps/current-work/multipage/), [CSS3](https://en.wikipedia.org/wiki/CSS3#CSS_3) eta [JavaScript](http://javascript.crockford.com/): Eta nola ahaztu hirukote hau. Gaur egun pilpilean dagoen web aplikazioak sortzeko oinarrizkoena.
 ## Instalakuntza
 * Lehenengo NodeJS eta npm programak instalatu behar dira. Hurrengo azalpena GNU/Linux sistema eragilearentzako urratzak dira. Beste sistemetarako begiratu nodjs.org eta npmjs.org gune ofizialak.
-* 
+* editatzen ari gara atal hau ...
 ## Kontaktua
 Kode irekiko proiektu honetan parte hartu nahi bazenu mesedez jarri kontaktuan gurekin:
 * Sergio Peña
