@@ -1,14 +1,14 @@
 @font-face{font-family:'icomoon';src:url("fonts/icomoon.eot");src:url("fonts/icomoon.eot?#iefix") format('embedded-opentype'),url("fonts/icomoon.woff") format('woff'),url("fonts/icomoon.ttf") format('truetype'),url("fonts/icomoon.svg#icomoon") format('svg');font-weight:normal;font-style:normal}
+@font-face{font-family:'Conv_Arista';src:url("fonts/Arista.eot");src:local('☺'),url("fonts/Arista.woff") format('woff'),url("fonts/Arista.ttf") format('truetype'),url("fonts/Arista.svg") format('svg');font-weight:normal;font-style:normal}
 [data-icon]:before{font-family:'icomoon';content:attr(data-icon);speak:none;font-weight:normal;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased}
 .icon-search,.icon-github,.icon-twitter{font-family:'icomoon';speak:none;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased}
 .icon-search:before{content:"\e000"}
 .icon-github:before{content:"\e002"}
 .icon-twitter:before{content:"\e001"}
-body{background:#eee;font-size:16px;font-family:Open Sans,sans-serif;text-align:center;height:100%;overflow:hidden;width:100%;}
-body header{background:#51bdfb;color:#fff;padding:0;width:100%;}
-body header figure{width:10%;}
-body header figure img{width:100%}
-body header h1{font-family:Merienda One,cursive;margin-top:5px;margin-bottom:5px}
+body{background:#51bdfb;font-size:16px;font-family:Open Sans,sans-serif;text-align:center;height:100%;overflow:hidden;width:100%;}
+body header{color:#fff;height:10%;padding:0;width:100%;}
+body header figure img{width:60px}
+body header h1{font-family:Conv_Arista;background:#fff;-webkit-border-radius:.5em;-moz-border-radius:.5em;border-radius:.5em;color:#3cf;padding:.1em .2em;margin-top:5px;margin-bottom:5px}
 body header figure,body header h1{text-align:left}
 body header figure,body header nav,body header h1{display:inline-block;vertical-align:middle}
 body header nav ul li{display:inline-block;margin-left:.5em;list-style:none}
@@ -19,7 +19,7 @@ body #bilaketa-kuadroa{background:none repeat scroll 0 0 #fff;border:1px solid #
 body #honi_buruz{cursor:pointer}
 body #joerak{display:none}
 body #lupa{margin-left:.5em}
-body #mapa{position:absolute;height:100%;width:100%}
+body #mapa{position:absolute;height:90%;width:100%}
 @media (max-width:320px){#honi_buruz{display:none}
 }@media (max-width:480px){body header h1{font-size:1em;margin:0}
 body header nav ul{margin:0}

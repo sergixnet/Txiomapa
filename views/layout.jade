@@ -17,23 +17,15 @@ html(lang="eu")
                 header
                         figure(id="logo")
                                 img(src="/img/logo.png")
-                        h1 Txio Mapa
+                        h1 txio mapa
                         nav
                                 ul
                                         li(id="honi_buruz") Honi buruz
                                         li
                                                 form(id="bilaketa_eremua")
                                                         input(id="bilaketa-kuadroa", type="search", tabindex="1", placeholder="Bilatu leku bat ...")
-                                                        span(id="lupa", class="icon-search", type="submit", tabindex="2")
+                                                        span(id="lupa", class="icon-search", type="submit")
                 section(id="mapa")
-                footer
-                        ul
-                                li Txio Mapa 2013
-                                li
-                                        span(id="twitter-footer", class="icon-twitter")
-                                li 
-                                        span(id="github-footer", class="icon-github")
-
                 script(src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js")
                 script(src="http://cdn.leafletjs.com/leaflet-0.5.1/leaflet.js")
                 script(src="/js/main.js")
