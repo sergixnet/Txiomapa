@@ -12,9 +12,11 @@ Txiomapa
 * [LeafletJS](http://leafletjs.com/): Mapak irudikatzeko Javascripteko liburutegi arina, azkarra eta erabilterraza. OpenstreetMap bezalako mapak erabili daitezke berarekin.
 * [Twitter API](https://dev.twitter.com/docs/api/1.1): Txioen informazio guztia eskuratzeko hau ezinbeztekoa izango da erabiltzea. BI bertsio daude momentu honetan. [API 1.0](https://dev.twitter.com/docs/api/1) (deprecated, hau kendu nahi dute) eta [API 1.1](https://dev.twitter.com/docs/api/1.1)(Gaur egun erabiltzea gomendatzen dute).
 * [HTML5](http://www.whatwg.org/specs/web-apps/current-work/multipage/), [CSS3](https://en.wikipedia.org/wiki/CSS3#CSS_3) eta [JavaScript](http://javascript.crockford.com/): Eta nola ahaztu hirukote hau. Gaur egun pilpilean dagoen web aplikazioak sortzeko oinarrizkoena.
+
 ## Instalakuntza
 * Lehenengo NodeJS eta npm programak instalatu behar dira. Hurrengo azalpena GNU/Linux sistema eragilearentzako urratzak dira. Beste sistemetarako begiratu nodjs.org eta npmjs.org gune ofizialak.
 * editatzen ari gara atal hau ...
+
 ## Kontaktua
 Kode irekiko proiektu honetan parte hartu nahi bazenu mesedez jarri kontaktuan gurekin:
 * Sergio Peña
