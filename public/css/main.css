@@ -7,28 +7,12 @@
 .icon-twitter:before{content:"\e001"}
 body{background:#51bdfb;font-size:16px;font-family:Open Sans,sans-serif;text-align:center;height:100%;overflow:hidden;width:100%;}
 body header{color:#fff;height:10%;padding:0;width:100%;}
-body header figure img{width:60px}
-body header h1{font-family:Conv_Arista;background:#fff;-webkit-border-radius:.5em;-moz-border-radius:.5em;border-radius:.5em;color:#3cf;padding:.1em .2em;margin-top:5px;margin-bottom:5px}
+body header figure img{width:200px}
 body header figure,body header h1{text-align:left}
 body header figure,body header nav,body header h1{display:inline-block;vertical-align:middle}
 body header nav ul li{display:inline-block;margin-left:.5em;list-style:none}
-body footer{background:#000;bottom:0;color:#fff;position:fixed;width:100%;}
-body footer ul{margin:0;}
-body footer ul li{display:inline-block;list-style:none;margin:0 1em;vertical-align:middle}
 body #bilaketa-kuadroa{background:none repeat scroll 0 0 #fff;border:1px solid #8d8d8d;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;box-shadow:1px 1px 2px #999 inset;padding:.2em}
 body #honi_buruz{cursor:pointer}
 body #joerak{display:none}
-body #lupa{margin-left:.5em}
+body #lupa{cursor:pointer;margin-left:.5em}
 body #mapa{position:absolute;height:90%;width:100%}
-@media (max-width:320px){#honi_buruz{display:none}
-}@media (max-width:480px){body header h1{font-size:1em;margin:0}
-body header nav ul{margin:0}
-#bilaketa-kuadroa{width:110px}
-#honi_buruz{display:none}
-}@media (min-width:768px){body header nav{margin-left:10%}
-#logo{width:7%}
-}@media (min-width:1024px){body header nav{margin-left:20%}
-#logo{width:7%}
-}@media (min-width:1200px){body header nav{margin-left:30%}
-#logo{width:7%}
-}
